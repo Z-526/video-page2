@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>基于 UAV-USV 协同作业及多模态感知技术的水面垃圾智能清理系统项目视频展示</title>
+    <style>
+        /* 设置背景图片 */
+        html, body {
+            height: 100%; /* 让 html 和 body 高度占满视口 */
+            margin: 0; /* 去掉默认的 margin */
+            padding: 0; /* 去掉默认的 padding */
+        }
+
+        body {
+            text-align: center;
+            font-family: Arial, sans-serif;
+            background-image: url('background.jpg');
+            background-size: cover; /* 背景图铺满整个屏幕 */
+            background-position: center; /* 图片居中 */
+            background-attachment: fixed; /* 背景固定，滚动不动 */
+            color: white; /* 白色文字 */
+            font-size: 22px; /* 设置整个页面文字大小 */
+            display: flex;
+            justify-content: flex-start; /* 让内容从顶部开始排列 */
+            align-items: center;
+            flex-direction: column;
+            min-height: 100vh; /* 确保页面内容始终在垂直居中 */
+            overflow: hidden; /* 禁止页面滚动 */
+            padding-top: 50px; /* 增加顶部间距，微调位置 */
+        }
+
+        /* 统一标题样式 */
+        .title {
+            font-size: 28px; /* 统一标题字体大小 */
+            font-weight: bold; /* 加粗字体 */
+            margin-bottom: 15px; /* 调整间距，使标题靠近视频 */
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* 文字阴影，增强可读性 */
+        }
+
+        /* 视频播放器样式（稍微放大） */
+        video {
+            width: 75%;  /* 增大视频框的宽度 */
+            max-width: 880px; /* 限制最大宽度，避免太大 */
+            height: auto;
+            border: 3px solid #ccc;
+            border-radius: 10px;
+            margin-top: 15px; /* 让视频与标题之间有间隔 */
+        }
+    </style>
+</head>
+<body>
+    <div class="title">基于 UAV-USV 协同作业及多模态感知技术的水面垃圾智能清理系统</div>
+    <div class="title">项目视频展示</div>
+    
+    <video controls>
+        <source src="your-video.mp4" type="video/mp4">
+        你的浏览器不支持视频播放，请使用最新版浏览器。
+    </video>
+</body>
+</html>
